@@ -1,0 +1,20 @@
+{
+  "name": "todomvc-playwright-smoke-suite",
+  "version": "1.0.0",
+  "description": "Playwright smoke test suite for the TodoMVC application",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "testing", "todomvc", "automation", "qa"],
+  "author": "Miodrag Golubovikj",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "typescript": "^5.8.3"
+  }
+}
